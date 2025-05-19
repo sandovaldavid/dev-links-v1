@@ -1,0 +1,18 @@
+{
+	"name": "dev-links-v1",
+	"version": "1.0.0",
+	"description": "This is a project to link all my social media and projects.",
+	"main": "index.js",
+	"scripts": {
+		"build:styles": "tailwindcss -i ./input.css -o ./assets/output.css --watch"
+	},
+	"keywords": [],
+	"author": "David Sandoval",
+	"license": "ISC",
+	"packageManager": "pnpm@10.11.0",
+	"dependencies": {
+		"@midudev/tailwind-animations": "^0.2.0",
+		"@tailwindcss/cli": "^4.1.7",
+		"tailwindcss": "^4.1.7"
+	}
+}
