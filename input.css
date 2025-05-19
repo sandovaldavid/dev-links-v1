@@ -25,6 +25,22 @@
 	--breakpoint-xs: 350px;
 }
 
+/* Hide scrollbar for all browsers */
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* For Firefox */
+html {
+	scrollbar-width: none;
+}
+
+/* For IE/Edge */
+body {
+	-ms-overflow-style: none;
+}
+
 .social-button {
 	@apply p-2 size-10 xs:size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
 }
